@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+</head>
+
+<body>
+    <h1>Employee Registration Form:</h1>
+    <form>
+        <input type="radio" id="Mr." name="title" value="Mr.">
+        <label for="Mr."> Mr.</label>
+        <input type="radio" id="Mrs." name="title" value="Mrs.">
+        <label for="Mrs."> Mrs.</label>
+        <input type="radio" id="Ms." name="title" value="Ms.">
+        <label for="Ms."> Ms.</label>
+        <br>
+        <label for="FName">First Name</label><br>
+        <input type="text" id="FName" name="FName" placeholder="First Name" required>
+        <br>
+        <label for="LName">Last Name</label><br>
+        <input type="text" id="LName" name="LName" placeholder="Last Name" required>
+        <br>
+        <label for="Mail-Address1">Mail Address1</label><br>
+        <input type="text" id="Mail-Address1" name="Mail-Address1" required>
+        <br>
+        <label for="Mail-Address2">Mail Address2</label><br>
+        <input type="text" id="Mail-Address2" name="Mail-Address2">
+        <br>
+        <label for="City">City</label><br>
+        <input type="text" id="City" name="City" required>
+        <br>
+        <label for="State">State</label><br>
+        <select name="State" id="State">
+            <option value="Gujarat">Gujarat</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Meghalaya">Meghalaya</option>
+        </select>
+        <br>
+        <label for="Zip">Zip</label><br>
+        <input type="text" id="Zip" name="Zip" required>
+        <br>
+        <label for="Image">Upload Photo</label><br>
+        <input type="file" id="Image" name="Image" required>
+        <br>
+        <label for="E-Mail">E-Mail</label><br>
+        <input type="email" id="E-Mail" name="E-Mail" required>
+        <br>
+        <label for="Mobile">Mobile</label><br>
+        <input type="tel" id="Mobile" name="Mobile" placeholder="+91" required>
+        <br>
+        <label>Language Known</label>
+
+        <input type="checkbox" id="Gujarati" name="Language" value="Gujarati">
+        <label for="Gujarati">Gujarati</label>
+
+        <input type="checkbox" id="Hindi" name="Language" value="Hindi">
+        <label for="Hindi">Hindi</label>
+
+        <input type="checkbox" id="English" name="Language" value="English">
+        <label for="English">English</label>
+
+        <input type="checkbox" id="Marathi" name="Language" value="Marathi">
+        <label for="Marathi">Marathi</label><br><br>
+
+        <label for="Additional-Info.">Addtional Information</label><br>
+        <textarea name="Additional-Info." id="Additional-Info." placeholder="optional"></textarea> <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
