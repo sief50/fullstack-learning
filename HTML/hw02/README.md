@@ -41,3 +41,6 @@ The table includes:
 ## 🎯 Learning Objective
 
 The goal of this assignment was to understand how to organize and present structured data using HTML tables.
+
+## 👨‍💻 Author
+Saif Addeen
