@@ -39,3 +39,6 @@ The webpage includes:
 ## 🎯 Learning Objective
 
 The goal of this assignment was to understand how to organize and display information using different types of HTML lists.
+
+## 👨‍💻 Author
+Saif Addeen
