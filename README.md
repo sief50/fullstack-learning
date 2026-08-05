@@ -7,25 +7,26 @@ This repository contains my learning journey in Full Stack Development.
 It includes different HTML assignments and projects completed during the course, focusing on building a strong foundation in web development.
 
 ## 📂 Repository Structure
-
-fullstack-learning
+```text
+fullstack-learning/
 │
-└── HTML
+└── HTML/
     │
-    ├── hw01
+    ├── hw01/
     │   ├── index.html
     │   ├── README.md
-    │   └── images
+    │   └── images/
     │       └── list.png
     │
-    ├── hw02
+    ├── hw02/
     │   ├── index.html
     │   ├── README.md
-    │   └── images
+    │   └── images/
     │       └── table.png
     │
-    └── hw03
+    └── hw03/
         ├── index.html
         ├── README.md
-        └── images
+        └── images/
             └── form.png
+```
