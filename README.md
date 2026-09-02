@@ -10,23 +10,33 @@ It includes different HTML assignments and projects completed during the course,
 ```text
 fullstack-learning/
 │
-└── HTML/
+├── HTML/
+│   │
+│   ├── hw01/
+│   │   ├── index.html
+│   │   ├── README.md
+│   │   └── images/
+│   │       └── list.png
+│   │
+│   ├── hw02/
+│   │   ├── index.html
+│   │   ├── README.md
+│   │   └── images/
+│   │       └── table.png
+│   │
+│   └── hw03/
+│       ├── index.html
+│       ├── README.md
+│       └── images/
+│           └── form.png
+│
+└── CSS/
     │
-    ├── hw01/
-    │   ├── index.html
-    │   ├── README.md
-    │   └── images/
-    │       └── list.png
-    │
-    ├── hw02/
-    │   ├── index.html
-    │   ├── README.md
-    │   └── images/
-    │       └── table.png
-    │
-    └── hw03/
+    └── hw04/
         ├── index.html
         ├── README.md
+        ├── assets/
+        │   └── im1.jpg
         └── images/
-            └── form.png
+            └── Screenshot.jpg
 ```
