@@ -15,7 +15,7 @@ This project demonstrates basic CSS styling including hover effects, list marker
 
 📷 Preview
 
-![Preview](images/Screenshot.jpg)
+
 
 👨‍💻 Author
 Saif Addeen
