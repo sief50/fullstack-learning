@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS hw04</title>
+    <style>
+        .link {
+            width: 150px;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid green;
+            text-align: center;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+
+        }
+
+        .link:hover {
+            background-color: green;
+
+        }
+
+        .link:hover a {
+            color: white;
+        }
+
+        ul {
+            background-color: yellow;
+            list-style-type: square;
+        }
+
+        li::marker {
+            color: orange;
+        }
+
+        img {
+            width: 150px;
+
+        }
+
+        h1 {
+            position: absolute;
+            top: 170px;
+            left: 10px;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="link">
+        <a href="#">This is a link</a>
+    </div>
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+
+    <img src="assets/im1.jpg" alt="">
+
+    <h1>This is a heading</h1>
+</body>
+
+</html>
