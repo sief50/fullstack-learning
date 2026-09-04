@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This repository documents my learning journey in Full Stack Development through the Dot Jordan training program, held at Middle East University.
 
-It includes different HTML assignments and projects completed during the course, focusing on building a strong foundation in web development.
+It includes different assignments and projects completed during the course, focusing on building a strong foundation in web development.
 
 ## 📂 Repository Structure
 ```text
