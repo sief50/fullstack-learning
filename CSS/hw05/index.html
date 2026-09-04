@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            background-color: plum;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            width: 300px;
+            height: 350px;
+            background-color: rgba(0, 0, 0, 0.456);
+            border-radius: 50px;
+        }
+
+        .login {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .login h1 {
+            margin: 20px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .login input {
+
+            margin: 5px;
+            padding: 8px;
+            width: 250px;
+            height: 30px;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.408);
+            outline: none;
+            border: none;
+        }
+
+        .login button {
+            width: 180px;
+            height: 30px;
+            margin: 5px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .log-container {
+            margin: 5px;
+            font-size: 10px;
+
+        }
+
+        .log-container a {
+            text-decoration: none;
+            color: black;
+            margin-left: 140px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="login">
+                <h1>Account Login</h1>
+                <input type="text" placeholder="User Name" required>
+                <input type="password" placeholder="Password" required>
+                <button>LOGIN</button>
+            </div>
+            <div class="log-container">
+                <input type="checkbox" id="rememberme">
+                <label for="rememberme">Remember me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
