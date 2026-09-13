@@ -1,10 +1,9 @@
 # Full Stack Learning
 
 ## 📌 Project Overview
+This repository documents my learning journey in Full Stack Development through the Dot Jordan training program, held at Middle East University.
 
-This repository contains my learning journey in Full Stack Development.
-
-It includes different HTML assignments and projects completed during the course, focusing on building a strong foundation in web development.
+It includes different assignments and projects completed during the course, focusing on building a strong foundation in web development.
 
 ## 📂 Repository Structure
 ```text
@@ -32,11 +31,17 @@ fullstack-learning/
 │
 └── CSS/
     │
-    └── hw04/
+    ├── hw04/
+    │   ├── index.html
+    │   ├── README.md
+    │   ├── assets/
+    │   │   └── im1.jpg
+    │   └── images/
+    │       └── Screenshot.jpg
+    │
+    └── hw05/
         ├── index.html
         ├── README.md
-        ├── assets/
-        │   └── im1.jpg
         └── images/
-            └── Screenshot.jpg
+            └── login-page.png
 ```
