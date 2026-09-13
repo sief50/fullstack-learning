@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            scroll-behavior: smooth;
+        }
+
+
+        /* Hero Section */
+        .hero {
+            background-image: url(assets/background.jpg);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: white;
+            box-shadow: 10px 5px 25px white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        header h1 a {
+            color: gray;
+            font-size: 30px;
+            text-decoration: none;
+
+        }
+
+        header span {
+            color: blueviolet;
+        }
+
+        .hero nav a {
+            padding: 20px;
+            color: blueviolet;
+            text-decoration: none;
+        }
+
+        .heroText {
+            margin: 70px;
+            color: white;
+            padding-top: 100px;
+        }
+
+        .heroText h1 {
+            padding: 10px;
+            font-size: 70px;
+            color: blueviolet;
+        }
+
+        .heroText button {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: blueviolet;
+            border-radius: 20px;
+            border: none;
+            transition: 2s;
+            font-size: 18px;
+        }
+
+        .heroText button a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .heroText button:hover {
+            padding: 25px;
+            cursor: pointer;
+        }
+
+        .icons i {
+            font-size: 20px;
+            padding: 12px;
+            margin-top: 20px;
+        }
+
+        /* Services Section  */
+        .services h1 {
+            padding-top: 100px;
+            text-align: center;
+            color: blueviolet
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .cards div {
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            border: 2px solid rgba(128, 128, 128, 0.66);
+            box-shadow: 2px 2px 5px blueviolet;
+            border-radius: 30px;
+            margin: 20px;
+            padding: 15px;
+            color: darkslategray;
+        }
+
+        .cards div i {
+            font-size: 80px;
+            color: blueviolet;
+            margin: 10px;
+        }
+
+        .cards div h5 {
+            color: blueviolet;
+            margin: 10px;
+        }
+
+        /* Projects Section  */
+        .projects {
+            background-color: blueviolet;
+            margin-top: 100px;
+        }
+
+        .projects h1 {
+            text-align: center;
+            color: white;
+            padding-top: 10px;
+        }
+
+        .project-main {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* width: 700px; */
+            margin: 0 auto;
+        }
+
+        .project-main .card {
+            width: 300px;
+            height: 300px;
+            border: 2px solid white;
+            border-radius: 30px;
+            margin: 20px;
+            padding: 15px;
+            background-color: white;
+            transition: 1s;
+        }
+
+        .project-main .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 30px;
+            box-shadow: 2px 2px 5px darkmagenta;
+            transition: 0.5s;
+
+        }
+
+        .project-main .card:hover {
+            margin: 1px;
+            box-shadow: 2px 2px 5px darkmagenta;
+            cursor: pointer;
+        }
+
+        .project-main .card p {
+            color: gray;
+            font-size: 12px;
+            margin: 3px;
+        }
+
+        .card .btn {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .btn button {
+            border: none;
+            margin: 5px;
+            color: blueviolet;
+            transition: 1s;
+            background-color: white;
+        }
+
+        .btn button:hover {
+            color: darkmagenta;
+            cursor: pointer;
+            text-shadow: 2px 2px 5px darkmagenta;
+        }
+
+        /* Contact Section */
+        .contact {
+            margin-top: 100px;
+        }
+
+        .contact h1 {
+            text-align: center;
+            color: blueviolet;
+        }
+
+        .contact-main {
+            display: flex;
+            justify-content: center;
+        }
+
+        .contact-main .card {
+            width: 250px;
+            height: 200px;
+            border: 2px solid white;
+            box-shadow: 2px 2px 5px darkmagenta;
+            border-radius: 20px;
+            margin: 20px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-main .card i {
+            font-size: 50px;
+            padding: 12px;
+            margin-top: 20px;
+            color: blueviolet;
+            text-shadow: 2px 2px 5px darkmagenta;
+        }
+
+        .contact-main .card h5,
+        .contact-main .card p {
+            padding: 3px;
+            color: gray;
+        }
+
+        /* Footer*/
+        footer {
+            height: 50px;
+            background-color: blueviolet;
+            margin-top: 100px;
+        }
+
+        .footer-bar {
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+            color: white;
+        }
+
+        @media screen and (max-width:720px) {
+
+            /* Header */
+            header {
+                flex-direction: column;
+                align-items: center;
+                height: 80px;
+            }
+
+            header h1 a {
+                font-size: 15px;
+            }
+
+            header nav a {
+                font-size: 12px;
+                padding: 5px;
+            }
+
+            /* Hero */
+            .heroText {
+                margin: 20px;
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            .heroText h1 {
+                font-size: 35px;
+                padding: 5px;
+            }
+
+            .heroText h2,
+            .heroText h3 {
+                font-size: 18px;
+            }
+
+            .heroText button {
+                padding: 10px;
+                font-size: 10px;
+            }
+
+            /* Services */
+            .services h1 {
+                font-size: 20px;
+            }
+
+            .cards {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .cards div {
+                width: 250px;
+                height: 250px;
+            }
+
+            /* Projects */
+            .projects h1 {
+                font-size: 20px;
+                padding-top: 50px;
+            }
+
+            .project-main {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            /* Contact */
+            .contact h1 {
+                font-size: 20px;
+            }
+
+            .contact-main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <header>
+            <h1><a href="#">YOUR <span>NAME</span></a></h1>
+            <nav>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <div class="heroText">
+            <h3>Hello, I'm your name</h3>
+            <h1>Web Developer</h1>
+            <h2>Code with purpose. Learn without limits. Build for the future.</h2>
+            <button><a href="#projects">View My Work</a></button>
+            <div class="icons">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h1>Services</h1>
+        <div class="cards">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h5>Web Development</h5>
+                <p>Building modern and functional websites using HTML, CSS and JavaScript.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-ruler"></i>
+                <h5>UI Design</h5>
+                <p> Creating clean and user-friendly interfaces with a focus on usability and visual design.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h5>Responsive Design</h5>
+                <p> Developing websites that work smoothly across desktops, tablets and mobile devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h1>Projects</h1>
+        <div class="project-main">
+            <div class="card">
+                <img src="assets/portfolio.jpg" alt="image">
+                <p>Portfolio Website</p>
+                <div class="btn">
+                    <button>Preview</button>
+                    <button>View Project</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/restaurant.jpg" alt="image">
+                <p>Restaurant Website</p>
+                <div class="btn">
+                    <button>Preview</button>
+                    <button>View Project</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/E-commercejpg.jpg" alt="image">
+                <p>E-commerce Website</p>
+                <div class="btn">
+                    <button>Preview</button>
+                    <button>View Project</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/weather-app.jpg" alt="image">
+                <p>Weather App</p>
+                <div class="btn">
+                    <button>Preview</button>
+                    <button>View Project</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h1>Let's Work Together</h1>
+        <div class="contact-main">
+            <div class="card">
+                <i class="fa-brands fa-linkedin"></i>
+                <h5>Linkedin</h5>
+                <p>Your Linkedin Link</p>
+            </div>
+            <div class="card">
+                <i class="fa-sharp-duotone fa-regular fa-envelope"></i>
+                <h5>Email</h5>
+                <p>Your Email</p>
+            </div>
+            <div class="card">
+                <i class="fa-brands fa-github"></i>
+                <h5>GitHub</h5>
+                <p>Your GitHub Profile</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bar">
+            &copy; CopyRight - 2026 - YOUR Name
+            <div>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
