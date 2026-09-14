@@ -61,8 +61,6 @@ The portfolio website includes:
 
 ![Web Developer Portfolio](images/Web%20Developer%20Portfolio.jpg)
 
-![Media Query](images/media%20query.jpg)
-
 ## 🖼️ Image Resources
 
 Some images used in this project were sourced from Pinterest for visual design and project presentation purposes.
