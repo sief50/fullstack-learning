@@ -23,6 +23,7 @@
             background-size: cover;
             display: flex;
             flex-direction: column;
+            height: 100vh;
         }
 
         header {
@@ -41,7 +42,6 @@
             color: gray;
             font-size: 30px;
             text-decoration: none;
-
         }
 
         header span {
@@ -146,7 +146,6 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            /* width: 700px; */
             margin: 0 auto;
         }
 
@@ -172,7 +171,7 @@
         }
 
         .project-main .card:hover {
-            margin: 1px;
+            transform: scale(1.02);
             box-shadow: 2px 2px 5px darkmagenta;
             cursor: pointer;
         }
@@ -278,6 +277,10 @@
             }
 
             /* Hero */
+            .hero {
+                height: 70vh;
+            }
+
             .heroText {
                 margin: 20px;
                 text-align: center;
