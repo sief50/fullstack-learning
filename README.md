@@ -39,9 +39,22 @@ fullstack-learning/
     │   └── images/
     │       └── Screenshot.jpg
     │
-    └── hw05/
+    ├── hw05/
+    │   ├── index.html
+    │   ├── README.md
+    │   └── images/
+    │       └── login-page.png
+    │
+    └── hw06/
         ├── index.html
         ├── README.md
+        ├── assets/
+        │   ├── hero-background.jpg
+        │   ├── portfolio.jpg
+        │   ├── restaurant.jpg
+        │   ├── E-commercejpg.jpg
+        │   └── weather-app.jpg
         └── images/
-            └── login-page.png
+            ├── Web Developer Portfolio.jpg
+            └── media query.jpg
 ```
