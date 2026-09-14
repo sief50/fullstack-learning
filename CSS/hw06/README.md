@@ -61,10 +61,6 @@ The portfolio website includes:
 
 ![Web Developer Portfolio](images/Web%20Developer%20Portfolio.jpg)
 
-## 🖼️ Image Resources
-
-Some images used in this project were sourced from Pinterest for visual design and project presentation purposes.
-
 ## 🎯 Learning Objective
 
 The goal of this project was to practice building a complete responsive portfolio website using HTML and CSS, while improving my understanding of Flexbox, responsive design, navigation, styling, and page layout.
