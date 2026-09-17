@@ -47,6 +47,7 @@ fullstack-learning/
     │
     └── hw06/
         ├── index.html
+        ├── style.css
         ├── README.md
         ├── assets/
         │   ├── hero-background.jpg
@@ -55,6 +56,6 @@ fullstack-learning/
         │   ├── E-commercejpg.jpg
         │   └── weather-app.jpg
         └── images/
-            ├── Web Developer Portfolio.jpg
+            ├── Web Developer Portfolio.jpeg
             └── media query.jpg
 ```
