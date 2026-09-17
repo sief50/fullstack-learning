@@ -59,7 +59,7 @@ The portfolio website includes:
 
 ## 📷 Preview
 
-![Web Developer Portfolio](images/Web%20Developer%20Portfolio.jpg)
+![Web Developer Portfolio](images/Web%20Developer%20Portfolio.jpeg)
 
 ## 🎯 Learning Objective
 
